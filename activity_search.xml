@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout1"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="#ff536dfe">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1"
+        android:layout_margin="15dp"
+        android:background="#ffb0bec5">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/linearLayout2"
+            android:gravity="center"
+            android:background="#ffffffff">
+            <TextView
+                android:text="Search Page"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView1"
+                android:background="#ff000000"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#ffffffff"
+                android:gravity="center"/>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="#FFFFFF"
+            android:id="@+id/linearLayout6" >
+            <TextView
+                android:text="Show Users"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/show"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="#999999"
+            android:id="@+id/linearLayout7" >
+            <EditText
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:id="@+id/myCity"
+                android:background="#ffffffff"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:hint="myCity"
+                android:textColorHint="#ff000000"
+                android:textSize="20dp"
+                android:textStyle="bold" /> 
+            <Button
+                android:text="Search"
+                android:layout_width="100.0dp"
+                android:layout_height="60dp"
+                android:id="@+id/search"
+                android:backgroundTint="#ff000000"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:gravity="center"
+                android:layout_margin="10dp" /> 
+            </LinearLayout>
+       
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout5"
+            android:gravity="center"
+            android:background="#ff8d6e63"
+            android:layout_margin="5dp"
+            android:layout_gravity="center">           
+            <Button
+                android:text="Back"
+                android:layout_width="100.0dp"
+                android:layout_height="70dp"
+                android:id="@+id/back"
+                android:backgroundTint="#ff000000"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:gravity="center"
+                android:layout_margin="5dp" />           
+            <Button
+                android:text="Logout"
+                android:layout_width="100.0dp"
+                android:layout_height="70dp"
+                android:id="@+id/logout"
+                android:backgroundTint="#00ff66"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:gravity="center"
+                android:layout_margin="5dp" />
+        </LinearLayout>    
+    </LinearLayout>
+</RelativeLayout>
